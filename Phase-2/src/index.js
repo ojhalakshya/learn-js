@@ -4,9 +4,9 @@ function greet(name, lastName)
   console.log("Hello " + name + " " + lastName);
 }
 
-function square(number)
+square = (a) =>
 {
-  return number * number;
+  return a * a;
 }
 
 greet("Lakshya", "Ojha");
